@@ -54,7 +54,7 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-app = FastAPI(title="Tugas TST, Fastapi - Oauth2", description="Galuh Dipa Bharata - 18219100")
+app = FastAPI(title="API endpoints, Create User and Get User", description="Galuh Dipa Bharata - 18219100")
 
 def verify_password(plain_password, hashed_password):
     return pwd_context.verify(plain_password, hashed_password)

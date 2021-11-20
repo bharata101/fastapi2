@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name":"ayam ku",
+            "username": "ayam",
+            "email" :"ayam@gmail.com",
+            "password":"ayamcinta"
+        },
+        {
+            "id": 2,
+            "name":"ikan nah",
+            "username": "ikan",
+            "email" :"ikan@gmail.com",
+            "password":"ikancinta"
+        }
+    ]
+}
